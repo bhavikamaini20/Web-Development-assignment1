@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavika Wiki Page</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Bhavika Wiki Page</h1>
+
+    <!-- Table of Contents -->
+    <div class="toc">
+        <h2>Table of Contents</h2>
+        <ul id="toc-list"></ul>
+    </div>
+
+    <!-- Section 1: Early Life -->
+    <section id="section-early-life">
+        <div class="heading" onclick="toggleCollapse('content-early-life')">Early Life</div>
+        <div id="content-early-life" class="collapse-content">
+            <h2>Early Life</h2>
+            <div class="subheading" onclick="toggleCollapse('school-dropdown')">School</div>
+            <div id="school-dropdown" class="dropdown-content">
+                <p><strong>Sophia Sr Secondary School</strong></p>
+                <p>Details about Sophia Sr Secondary School...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Career -->
+    <section id="section-career">
+        <div class="heading" onclick="toggleCollapse('content-career')">Career</div>
+        <div id="content-career" class="collapse-content">
+            <h2>Career</h2>
+            <div class="subheading" onclick="toggleCollapse('college-dropdown')">College</div>
+            <div id="college-dropdown" class="dropdown-content">
+                <p><strong>VIT Chennai</strong></p>
+                <p>Details about VIT Chennai...</p>
+            </div>
+        </div>
+    </section>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
