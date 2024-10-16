@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Table of Contents Styling */
+.toc {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.toc a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.toc a:hover {
+    text-decoration: underline;
+}
+
+/* Collapsible Styling */
+.collapse-content {
+    display: none;
+    margin-top: 10px;
+}
+
+.heading {
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+
+.heading:hover {
+    background-color: #0056b3;
+}
+
+/* Sub-section Styling */
+.subheading {
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #28a745;
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.subheading:hover {
+    background-color: #218838;
+}
+
+/* Drop-down Content */
+.dropdown-content {
+    display: none;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-left: 2px solid #007bff;
+    margin-top: 5px;
+}
